@@ -64,6 +64,8 @@ Desde Docker Desktop:
 
 Abre Docker Desktop y verifica que los cinco contenedores del proyecto docker-hadoop estén activos.
 
+Este entorno permite levantar un clúster Hadoop completamente funcional en tu máquina local, ideal para pruebas, desarrollo y aprendizaje en temas de Big Data.
+
 
 
 
