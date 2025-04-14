@@ -22,6 +22,8 @@ Este proyecto tiene como objetivo realizar un **conteo de palabras** utilizando 
 
 ###  1. Clonar el repositorio
 
+#### 1.1 Crea una carpeta en tus documentos con el nombre de docker-hadoop
+
 Primero, se debe clonar el repositorio que contiene la configuración necesaria para levantar Hadoop en contenedores Docker:
 
 ```bash
@@ -36,6 +38,9 @@ Una vez clonado, entra al directorio del proyecto:
 ```bash
 cd docker-hadoop
 ```
+### 3. Iniciar los contenedores con Docker Compose
+
+Ejecuta el siguiente comando para levantar los cinco contenedores necesarios de forma automática:
 
 
 
