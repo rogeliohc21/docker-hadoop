@@ -18,3 +18,12 @@ Este proyecto tiene como objetivo realizar un **conteo de palabras** utilizando 
 - Bash
 - Sistema de archivos local
 
+## Cómo levantar un nodo de Hadoop con Docker
+
+###  1. Clonar el repositorio
+
+Primero, se debe clonar el repositorio que contiene la configuración necesaria para levantar Hadoop en contenedores Docker:
+
+```bash
+git clone https://github.com/big-data-europe/docker-hadoop.git
+
