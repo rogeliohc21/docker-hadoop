@@ -52,6 +52,19 @@ docker-compose up -d
 
 docker-compose es una herramienta que permite definir y ejecutar aplicaciones Docker multicontenedor a partir de un solo archivo de configuración (docker-compose.yml). Este archivo contiene todas las instrucciones necesarias para construir y levantar los servicios requeridos.
 
+### 4. Verificar que los contenedores están corriendo
+
+Puedes comprobar que los contenedores están en ejecución de dos formas:
+Desde la terminal:
+
+```bash
+docker ps
+```
+Desde Docker Desktop:
+
+Abre Docker Desktop y verifica que los cinco contenedores del proyecto docker-hadoop estén activos.
+
+
 
 
 
