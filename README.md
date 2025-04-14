@@ -67,6 +67,37 @@ Abre Docker Desktop y verifica que los cinco contenedores del proyecto docker-ha
 Este entorno permite levantar un clúster Hadoop completamente funcional en tu máquina local, ideal para pruebas, desarrollo y aprendizaje en temas de Big Data.
 
 
+## Estructura General
+
+### Entrar al nodo maestro namenode 
+
+Ejecutar
+
+```bash
+    docker exec -it namenode bash
+```
+
+### Accedemos a nuestro contenedor namenode, es el nodo maestro de nuestro clúster Hadoop. 
+### Crear una estructura de carpetas para archivos de entrada
+
+Enumerar todos los archivos en nuestro sistema HDFS : 
+
+```bash
+    hdfs dfs -ls / 
+```
+
+Tenemos que crear la caperta /user/root/, ya que hadoop trabaja con esta estructura definida, para lo anterior ejecutamos
+
+```bash
+    hdfs dfs -mkdir -p /user/root/ 
+```
+
+Podemos verificar si se creó correctamente: 
+
+```bash
+    hdfs dfs -ls /user/
+```
+
 
 
 
