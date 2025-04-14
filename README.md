@@ -43,5 +43,11 @@ cd docker-hadoop
 
 Ejecuta el siguiente comando para levantar los cinco contenedores necesarios de forma automática:
 
+```bash
+docker-compose up -d
+```
+#### Si es la primera vez que ejecutas este comando, Docker descargará las imágenes necesarias. Esto puede tardar algunos minutos.
+
+
 
 
