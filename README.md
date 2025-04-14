@@ -48,6 +48,12 @@ docker-compose up -d
 ```
 #### Si es la primera vez que ejecutas este comando, Docker descargará las imágenes necesarias. Esto puede tardar algunos minutos.
 
+#### ¿Qué hace docker-compose?
+
+docker-compose es una herramienta que permite definir y ejecutar aplicaciones Docker multicontenedor a partir de un solo archivo de configuración (docker-compose.yml). Este archivo contiene todas las instrucciones necesarias para construir y levantar los servicios requeridos.
+
+
+
 
 
 
