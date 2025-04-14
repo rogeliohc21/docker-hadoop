@@ -25,5 +25,17 @@ Este proyecto tiene como objetivo realizar un **conteo de palabras** utilizando 
 Primero, se debe clonar el repositorio que contiene la configuración necesaria para levantar Hadoop en contenedores Docker:
 
 ```bash
-git clone https://github.com/big-data-europe/docker-hadoop.git
+git clone
+```
+[https://github.com/big-data-europe/docker-hadoop.git]
+
+
+### 2. Acceder al directorio
+
+Una vez clonado, entra al directorio del proyecto:
+```bash
+cd docker-hadoop
+```
+
+
 
